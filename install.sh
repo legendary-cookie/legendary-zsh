@@ -19,10 +19,14 @@ export XDG_CACHE_HOME="\$XDG_CONFIG_HOME/cache"
 export MAKEFLAGS="-j\$(nproc)"
 export EDITOR="nvim"
 export VISUAL="nvim"
+export USER_HOME=\$HOME
+export GRADLE_USER_HOME=\$USER_HOME/.gradle
+export JAVA_HOME="/usr/lib/jvm/default"
+export GOPATH=\$HOME/go
+export PATH=\$PATH:\$GOPATH/bin
 
 export ZDOTDIR="\$HOME/.dotfiles"
 export DOTFILES="\$HOME/.dotfiles"
-
 export HISTFILE="\$ZDOTDIR/.zhistory"    # History filepath
 export HISTSIZE=10000                   # Maximum events for internal history
 export SAVEHIST=10000                   # Maximum events in history file
