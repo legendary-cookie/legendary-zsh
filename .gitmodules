@@ -10,9 +10,6 @@
 [submodule "plugins/zsh-dotnet-completion"]
 	path = plugins/zsh-dotnet-completion
 	url = https://github.com/MenkeTechnologies/zsh-dotnet-completion.git
-[submodule "plugins/docker-zsh-completion"]
-	path = plugins/docker-zsh-completion
-	url = https://github.com/greymd/docker-zsh-completion
 [submodule "plugins/zsh-github-cli"]
 	path = plugins/zsh-github-cli
 	url = https://github.com/sudosubin/zsh-github-cli

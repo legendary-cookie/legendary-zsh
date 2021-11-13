@@ -9,7 +9,7 @@ if [[ -z "$DOTFILES" ]]; then
 	exit 1
 fi
 
-git clone --recurse-submodules -j8 https://github.com/legendary-cookie/zsh-dotfiles $HOME/.dotfiles
+git clone --recurse-submodules https://github.com/legendary-cookie/zsh-dotfiles $HOME/.dotfiles
 
 cat > $HOME/.zshenv <<- EOF
 export XDG_CONFIG_HOME="\$HOME/.config"
