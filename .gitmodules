@@ -25,3 +25,6 @@
 [submodule "plugins/blackbox"]
 	path = plugins/blackbox
 	url = https://github.com/StackExchange/blackbox
+[submodule "plugins/copypasta"]
+	path = plugins/copypasta
+	url = https://github.com/ChrisPenner/copy-pasta

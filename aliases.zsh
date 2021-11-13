@@ -1,15 +1,27 @@
+# Own aliases
+# 
+# Author: https://github.com/legendary-cookie
 alias nv="nvim"
 alias vi="nvim"
 alias vim="nvim"
 alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 alias ls="ls --color=auto"
+alias ll="ls -lah"
+alias tarthis="tar --zstd -cvf"
+alias pinstall="sudo pacman -S"
+alias pupdate="sudo pacman -Syu"
+alias prettyjson='python -m json.tool'
+alias hex="hexedit"
+function createpatch () {
+	diff -Naur $1 $2 > $3
+	return 0
+}
 
 # Aliases for git
 #
 # Author: https://github.com/bossjones
 alias gcl='git clone'
 alias gpr='git pull --rebase'
-
 alias __git_find_subcommand='__git_find_on_cmdline'
 alias g='git'
 alias ga='git add'
