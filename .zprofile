@@ -1,1 +1,1 @@
-[[ -f ~/.zshrc ]] && . ~/.zshrc
+[[ -f $DOTFILES/.zshrc ]] && . $DOTFILES/.zshrc
