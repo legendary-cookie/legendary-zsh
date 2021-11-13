@@ -16,3 +16,9 @@
 [submodule "plugins/gradle-zsh-completion"]
 	path = plugins/gradle-zsh-completion
 	url = https://github.com/ninrod/gradle-zsh-completion
+[submodule "plugins/autofortune-zsh"]
+	path = plugins/autofortune-zsh
+	url = https://github.com/babasbot/auto-fortune-cowsay-zsh
+[submodule "plugins/zsh-autosuggestions"]
+	path = plugins/zsh-autosuggestions
+	url = https://github.com/zsh-users/zsh-autosuggestions
