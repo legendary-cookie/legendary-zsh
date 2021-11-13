@@ -4,3 +4,9 @@
 [submodule "zsh-completions"]
 	path = zsh-completions
 	url = https://github.com/zsh-users/zsh-completions
+[submodule "zsh-plugin-appup"]
+	path = zsh-plugin-appup
+	url = https://github.com/Cloudstek/zsh-plugin-appup
+[submodule "zsh-autocomplete"]
+	path = zsh-autocomplete
+	url = https://github.com/marlonrichert/zsh-autocomplete.git
