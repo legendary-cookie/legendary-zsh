@@ -22,3 +22,6 @@
 [submodule "plugins/zsh-autosuggestions"]
 	path = plugins/zsh-autosuggestions
 	url = https://github.com/zsh-users/zsh-autosuggestions
+[submodule "plugins/blackbox"]
+	path = plugins/blackbox
+	url = https://github.com/StackExchange/blackbox
