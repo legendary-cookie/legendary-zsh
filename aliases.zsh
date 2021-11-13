@@ -12,11 +12,11 @@ alias pinstall="sudo pacman -S"
 alias pupdate="sudo pacman -Syu"
 alias prettyjson='python -m json.tool'
 alias hex="hexedit"
+alias listsecretkeys="gpg --list-secret-keys --keyid-format=long"
 function createpatch () {
 	diff -Naur $1 $2 > $3
 	return 0
 }
-
 # Aliases for git
 #
 # Author: https://github.com/bossjones
