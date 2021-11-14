@@ -1,3 +1,5 @@
+[[ -f $DOTFILES/custom.zsh ]] && . $DOTFILES/custom.zsh
+
 _comp_options+=(globdots) # With hidden files
 source $DOTFILES/plugins/plugins.zsh
 source $DOTFILES/completion.zsh
